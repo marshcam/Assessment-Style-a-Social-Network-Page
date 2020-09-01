@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+}
+
+header {
+    position: relative;
+    top: 250px;
+    left:475px;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 850px;
+}
+
+.yellowback {
+    background-color: yellow;
+    height: 300px;
+    width: 850px;
+    margin: auto;
+    
+    
+}
+
+.image1 {
+    background-image: url(../social-network/images/lakers.png);
+    background-size: contain;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 175px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+.whitebox{
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 850px;
+    z-index: 0;
+}
+
+
+li {
+    display: inline;
+    border-right: 2px solid bbb;
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    left: 200px;
+    font-weight: bold;
+    font-size: larger;
+    
+    
+}
+
+.column {
+    width: 328px;
+    top: 31px;
+    position: relative;
+    left: 0px;
+    }
+  
+  .right {
+    width: 512px;
+    clear: both;
+    position: relative;
+    top: -238px;
+    left: 338px;
+  }
+
+  .row {
+    width: 850px;
+    margin: auto;
+    color: white;
+      
+     
+  }
+  
+  button {
+    top: 13px;
+    left: 570px;
+    position: relative;
+  }
+
+  a:link {
+      color: purple;
+      background-color: transparent;
+      text-decoration: none;
+  }
+
+  
+
+
+
+
+
